@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    background-image: url("Images/ojai_valley.jpg");
+    background-attachment: fixed;
+    min-width: fit-content;
+}
+
+#header {
+    color: #FFF4EC;
+    text-shadow: 0px 1.5px 5px black;
+    background-size: auto;
+}   
+
+#header-image {
+    border: 10px solid #F2B880;
+    border-radius: 50px;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+#header-image:hover {
+    border: 10px solid #C98686;
+}
+
+#sub-blocks {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sub-block {
+    font-family: 'Indie Flower', regular;
+    color: #FFF4EC;
+    text-shadow: 10px 2.5px 5px black;
+    margin: 0 20px;
+}
+
+.sub-images-town-center {
+    width: 500px;
+    height: 300px;
+    border: 10px solid #F2B880;
+    border-radius: 500px;
+    background-image: url("Images/ojai_center.jpg");
+    background-size: cover;
+    margin: 0 20px;
+}
+
+.sub-images-town-center:hover {
+    border: 10px solid #C98686;
+}
+
+.sub-images-town-museum {
+    width: 500px;
+    height: 300px;
+    border: 10px solid #F2B880;
+    border-radius: 500px;
+    background-image: url("Images/ojai_museum.jpg");
+    background-size: cover;
+    margin: 0 20px;
+}
+
+.sub-images-town-museum:hover {
+    border: 10px solid #C98686;
+}
+
+.sub-images-town-inn {
+    width: 500px;
+    height: 300px;
+    border: 10px solid #F2B880;
+    border-radius: 500px;
+    background-image: url("Images/ojai_valley_inn.jpg");
+    background-size: cover;
+    margin: 0 20px;
+}
+
+.sub-images-town-inn:hover {
+    border: 10px solid #C98686;
+}
+
+#footer {
+    font-family: 'Indie Flower', regular;
+    color: #FFF4EC;
+    text-shadow: 10px 2.5px 5px black;
+}
+
+#footer-image {
+    border: 10px solid #CBC0D3;
+    border-radius: 5000px;
+    background-size: cover;
+    margin: 0 auto;
+}
